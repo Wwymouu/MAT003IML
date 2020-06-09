@@ -1,0 +1,27 @@
+SONG CLASSIFICATION DATASET
+
+----------------------------------------------
+
+Dataset description:
+The data is the results of an analysis of songs recorded by a record label. Every song belongs to the pop, rock or jazz genres. There are thirteen different features associated with the songs. The goal is to correctly predict the song genre (feature "class") from the features.
+
+Attention!
+Please notice that the data has been artificially generated. The dataset does not reflect real-world statistical correlations between features and labels.
+
+	Number of samples: 500
+	Number of features: 13 (numeric and strings) + one column of class labels (0,1,2)
+	Features description:
+		radio_play: Weekly average number of radio play
+		tonality: Tonality 音调
+		ratings: Listener ratings	听众评分：高中低 
+		albums_sold: Albums sold (in thousands)
+		loudness: Loudness index   声音强度
+		tempo: Tempo 节奏
+		song_id: Song ID
+		vocals: percentage of vocals in song。 歌曲中人声的百分比
+		listen_count: Digital listen count (in thousands)
+		length: Length of song
+		instr: Number of instruments playing simultaneously on average
+		frequency: Average audio frequency (in hundreds)  平均音频
+		year: Release year
+		class: Song genre (0 = pop, 1 = rock, 2 = jazz) <--- LABEL TO PREDICT
